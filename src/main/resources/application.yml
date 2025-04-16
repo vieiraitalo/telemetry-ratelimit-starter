@@ -1,0 +1,11 @@
+starter:
+  telemetry:
+    enabled: true
+    capture-body: true
+    capture-body-on-error: true
+  ratelimit:
+    enabled: true
+  jwt:
+    expiry-offset-seconds: 20
+  camel:
+    enabled: false
